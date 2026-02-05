@@ -1,0 +1,17 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "fallback": { "type": "model", "model": "minecraft:item/potion" },
+    "entries": [
+      {
+        "threshold": 999,
+        "model": { "type": "model", "model": "infuse:item/aug" }
+      },
+      {
+        "threshold": 1000,
+        "model": { "type": "model", "model": "minecraft:item/potion" }
+      }
+    ]
+  }
+}
